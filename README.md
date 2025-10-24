@@ -60,6 +60,18 @@ project/
 │
 └── README.md
 ```
+
+![Alt text](./frontend/public/home1.png)
+
+
+and
+
+![Alt text](./frontend/public/home2.png)
+
+and 
+
+![Alt text](./frontend/public/home3.png)
+
 ⚙️ Setup Instructions
 ```
 1️⃣ Clone the repository

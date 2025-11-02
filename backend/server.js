@@ -4,7 +4,13 @@ import cors from "cors";
 import portfolioRoutes from "./routes/portfolioRoutes.js";
 
 const app = express();
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: "https://porfolio-maker-3-fr.onrender.com",
+  credentials: true
+}));
+
 app.use(express.json());
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://tulsishuklag:mongodbfirst@cluster0.vdfztqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
